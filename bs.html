@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="C:\Users\Light Tech\Desktop\bootstrap work\istockphoto-1493642908-612x612.webp" width="60px"
+                    height="60px" class="rounded-pill" alt="not working" style="border-radius: 10px;  "></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#demo"><span
+                    class=" navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="demo">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item"> <a class="nav-link" style="color: yellow;font-family: times;"
+                            href="#">HOME</a></li>
+                    <li class="nav-item"> <a class="nav-link" style="color: yellow;font-family: times;"
+                            href="#">ABOUT</a></li>
+                    <li class="nav-item"> <a class="nav-link" style="color: yellow;font-family: times;"
+                            href="#">NEWS</a></li>
+                    <li class="nav-item"> <a class="nav-link" style="color: yellow;font-family: times;"
+                href="#">CONTACT</a></li>
+            </ul>
+
+                            <div class="d-flex ms-auto">
+                                <input type="text" class="form-control me-2" placeholder="Search">
+                                <button class="btn btn-warning">SEARCH</button>
+                            </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="aima" class="carousel-slides">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#aima" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide1"></button>
+            <button type="button" data-bs-target="#aima" data-bs-slide-to="1" aria-label="slid2"></button>
+            <button type="button" data-bs-target="#aima" data-bs-slide-to="2" aria-label="slid3"></button>
+            <button type="button" data-bs-target="#aima" data-bs-slide-to="3" aria-label="slid4"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-inner-active">
+                <img src="c:\Users\Light Tech\Downloads\zoltan-tasi-HQPJEEjHqSE-unsplash.jpg" alt="moon" class="d-block w-100">
+            </div>
+
+            <div class="carousel-inner-active">
+                <img src="c:\Users\Light Tech\Downloads\zoltan-tasi-HQPJEEjHqSE-unsplash.jpg" alt="moon" class="d-block w-100">
+            </div>
+
+            <div class="carousel-inner-active">
+                <img src="c:\Users\Light Tech\Downloads\zoltan-tasi-HQPJEEjHqSE-unsplash.jpg" alt="moon" class="d-block w-100">
+            </div>
+
+            <div class="carousel-inner-active">
+                <img src="c:\Users\Light Tech\Downloads\zoltan-tasi-HQPJEEjHqSE-unsplash.jpg" alt="moon" class="d-block w-100">
+            </div>
+        </div>
+
+        <a href="#aima" class="carousel-control-prev" role="button" data-bs-slides="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span></a>
+
+            <a href="#aima" class="carousel-control-prev" role="button" data-bs-slides="prev">
+                <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span></a>
+
+               
+        
+
+
+
+
+
+
+
+    </div>
+
+
+    <script>
+      var myCarousel = document.querySelector('#aima');
+var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 2000
+});
+
+                    
+    </script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unique Footer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <!-- Company Info -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold">Your Company</h5>
+          <p>Providing high-quality services to our customers with a passion for excellence.</p>
+        </div>
+        
+        <!-- Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        
+        <!-- Resources -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold">Resources</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Terms of Service</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Help Center</a></li>
+          </ul>
+        </div>
+        
+        <!-- Contact -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h5 class="text-uppercase fw-bold">Contact</h5>
+          <p><i class="bi bi-house-door-fill"></i> 1234 Street, City, Country</p>
+          <p><i class="bi bi-envelope-fill"></i> info@example.com</p>
+          <p><i class="bi bi-telephone-fill"></i> +123 456 7890</p>
+        </div>
+      </div>
+      
+      <!-- Social Media -->
+      <div class="d-flex justify-content-center mt-3">
+        <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="btn btn-outline-light btn-floating m-1"><i class="bi bi-linkedin"></i></a>
+      </div>
+      
+      <!-- Copyright -->
+      <div class="text-center mt-3">
+        <p class="mb-0">&copy; 2025 Your Company. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
